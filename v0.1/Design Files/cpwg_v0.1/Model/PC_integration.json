@@ -1,0 +1,44 @@
+{
+   "execution": {
+      "classname": "SMAPowerByEmagHPCFrame",
+      "libname": "SMAPowerByEmagUI"
+   },
+   "inputVariables": [
+      {
+         "name": "Epsilon_r",
+         "type": "float",
+         "value": 10.2
+      },
+      {
+         "name": "Length",
+         "type": "float",
+         "value": 15.0
+      },
+      {
+         "name": "SubstrateHeight",
+         "type": "float",
+         "value": 1.27
+      },
+      {
+         "name": "TraceWidth",
+         "type": "float",
+         "value": 0.2
+      },
+      {
+         "name": "TraceThickness",
+         "type": "float",
+         "value": 0.035
+      },
+      {
+         "name": "GapWidth",
+         "type": "float",
+         "value": 0.1
+      },
+      {
+         "name": "GroundThickness",
+         "type": "float",
+         "value": 0.035
+      }
+   ],
+   "outputVariables": []
+}

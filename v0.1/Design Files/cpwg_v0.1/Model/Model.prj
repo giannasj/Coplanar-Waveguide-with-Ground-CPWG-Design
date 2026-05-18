@@ -1,0 +1,13 @@
+{
+   "Author": "jimmy",
+   "Comment": "",
+   "Last Problem Type": "High Frequency",
+   "Last Solver Type": "HF Time Domain",
+   "Last Solver Type Abb": "t",
+   "Mesh Cells": "29,952",
+   "Mesh Type": "Hexahedral",
+   "Modeler Unique ID": "5:cpwg_v0.1.cst?2ffdec13d276bf6f823f74d91e38a7f9?7577:numberofparameters=9:port=1>mode=1>zre=0>zim=0?port=2>mode=1>zre=0>zim=0:::w?substratewidth?groundthickness?gapwidth?tracethickness?tracewidth?substrateheight?length?epsilon_r",
+   "ProjectVersion": "'# MWS Version: Version 2025.4 - Apr 11 2025 - ACIS 34.0.1 - Learning Edition",
+   "Results": "Time Domain: S-Parameter",
+   "Version": "3"
+}

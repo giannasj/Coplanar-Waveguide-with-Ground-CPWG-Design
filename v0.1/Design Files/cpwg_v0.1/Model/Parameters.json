@@ -1,0 +1,50 @@
+{
+    "parameters": [
+        {
+            "expr": "10.2",
+            "name": "Epsilon_r",
+            "value": "10.2"
+        },
+        {
+            "expr": "15",
+            "name": "Length",
+            "value": "15"
+        },
+        {
+            "expr": "1.27",
+            "name": "SubstrateHeight",
+            "value": "1.27"
+        },
+        {
+            "expr": "0.2",
+            "name": "TraceWidth",
+            "value": "0.2"
+        },
+        {
+            "expr": "0.035",
+            "name": "TraceThickness",
+            "value": "0.035"
+        },
+        {
+            "expr": "0.1",
+            "name": "GapWidth",
+            "value": "0.1"
+        },
+        {
+            "expr": "0.035",
+            "name": "GroundThickness",
+            "value": "0.035"
+        },
+        {
+            "expr": "3*W",
+            "name": "SubstrateWidth",
+            "value": "1.2"
+        },
+        {
+            "expr": "TraceWidth+2*GapWidth",
+            "name": "W",
+            "value": "0.4"
+        }
+    ],
+    "version": 1
+}

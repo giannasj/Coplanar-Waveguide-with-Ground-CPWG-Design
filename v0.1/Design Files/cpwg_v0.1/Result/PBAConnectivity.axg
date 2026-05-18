@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CSTAuxiliaryGeometry version="20170928">
+  <Objects>
+    <Object name="Components\cpw_mg:Substrate" id="1"/>
+    <Object name="Components\cpw_mg:BottomGround" id="2"/>
+    <Object name="Components\cpw_mg:TopLeftGround" id="3"/>
+    <Object name="Components\cpw_mg:TopRightGround" id="4"/>
+    <Object name="Components\cpw_mg:Trace" id="5"/>
+  </Objects>
+  <Materials/>
+  <Groups>
+    <Group name="Isolators" ID="1">
+      <Item name="Components\cpw_mg:Substrate" id="1"/>
+    </Group>
+    <Group name="Unconsidered" ID="1">
+      <Item name="Components\cpw_mg:BottomGround" id="2"/>
+      <Item name="Components\cpw_mg:TopLeftGround" id="3"/>
+      <Item name="Components\cpw_mg:TopRightGround" id="4"/>
+      <Item name="Components\cpw_mg:Trace" id="5"/>
+    </Group>
+  </Groups>
+</CSTAuxiliaryGeometry>
