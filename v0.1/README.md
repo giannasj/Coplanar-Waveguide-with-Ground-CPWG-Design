@@ -6,3 +6,4 @@
 - Metal Spacing: 0.1 mm
 - Metal Thickness: 0.035 mm (35 um)
 - Trace Length: 14.5 mm
+- Reference Impedance: 45.78 Ohm

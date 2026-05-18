@@ -10,9 +10,9 @@ Group | Shape-ID | ShapeName | Material | User-priority | 2D/3D-Geometry | Mater
 1 | 9 | </cst/Boundaries/> Up^X | $NFSMaterial$ | n/a | no | normal.vacuum. | boundary. | n/a | FIT_TD
 1 | 10 | </cst/Boundaries/> Up^Y | $NFSMaterial$ | n/a | no | normal.vacuum. | boundary. | n/a | FIT_TD
 1 | 11 | </cst/Boundaries/> Up^Z | $NFSMaterial$ | n/a | no | normal.vacuum. | boundary. | n/a | FIT_TD
-2 | 2 | cpw_mg:Substrate | Dielectric | n/a | yes | normal. | solid. | n/a | FIT_TD
-3 | 1 | cpw_mg:BottomGround | PEC | n/a | yes | pec. | solid. | n/a | FIT_TD
-3 | 3 | cpw_mg:TopLeftGround | PEC | n/a | yes | pec. | solid. | n/a | FIT_TD
-3 | 4 | cpw_mg:TopRightGround | PEC | n/a | yes | pec. | solid. | n/a | FIT_TD
-3 | 5 | cpw_mg:Trace | PEC | n/a | yes | pec. | solid. | n/a | FIT_TD
+2 | 2 | cpw_mg:Substrate | Dielectric | n/a | yes | dispersive-mue.normal. | solid. | n/a | FIT_TD
+3 | 1 | cpw_mg:BottomGround | Copper (pure) | n/a | yes | pec.rho.surface-impedance. | solid. | n/a | FIT_TD
+3 | 3 | cpw_mg:TopLeftGround | Copper (pure) | n/a | yes | pec.rho.surface-impedance. | solid. | n/a | FIT_TD
+3 | 4 | cpw_mg:TopRightGround | Copper (pure) | n/a | yes | pec.rho.surface-impedance. | solid. | n/a | FIT_TD
+3 | 5 | cpw_mg:Trace | Copper (pure) | n/a | yes | pec.rho.surface-impedance. | solid. | n/a | FIT_TD
 =========================================

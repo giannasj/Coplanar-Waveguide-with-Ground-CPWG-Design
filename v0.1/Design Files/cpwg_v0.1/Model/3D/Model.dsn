@@ -59,3 +59,14 @@ PortModeConsState: 0
 
 
 
+*** newmonitor
+monname: "h-field (f=2.62)"
+nmonfrequencies: 1
+monfrequencies: "2.6200000000000001" 
+montype: 1
+mondomain: 1
+mon_fmin: ""
+mon_fmax: ""
+mon_nfSteps: ""
+*** endmonitor
+

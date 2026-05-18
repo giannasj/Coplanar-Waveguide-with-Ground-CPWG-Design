@@ -12,7 +12,7 @@
       {
          "name": "Length",
          "type": "float",
-         "value": 15.0
+         "value": 14.5
       },
       {
          "name": "SubstrateHeight",
@@ -40,5 +40,12 @@
          "value": 0.035
       }
    ],
-   "outputVariables": []
+   "outputVariables": [
+      {
+         "len": 1,
+         "name": "3D\\1h-field (f=2.62) (1)Mu01e4",
+         "type": "float",
+         "value": 0.0
+      }
+   ]
 }

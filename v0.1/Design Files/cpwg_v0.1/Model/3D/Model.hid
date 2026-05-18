@@ -66,7 +66,6 @@ false
 12
 [end]block_index
 [start]command
-
 '@ define port: 1
  (undo)
 [end]command
@@ -130,7 +129,6 @@ Port.Delete "1"
 16
 [end]block_index
 [start]command
-
 '@ define port: 2
  (undo)
 [end]command

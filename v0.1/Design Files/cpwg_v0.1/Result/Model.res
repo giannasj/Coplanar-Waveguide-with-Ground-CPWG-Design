@@ -1,5 +1,21 @@
 MWS Result File Version 20150206
-size=i:186
+size=i:247
+
+type=s:HIDDENITEM
+problemclass=s::8:1000
+visibility=s:hidden
+creation=s:internal
+lifetime=s:rebuild
+result=s:1
+files=s:h-field (f=2.62)_2,1.m3d
+
+type=s:HIDDENITEM
+problemclass=s::8:1000
+visibility=s:hidden
+creation=s:internal
+lifetime=s:rebuild
+result=s:1
+files=s:h-field (f=2.62)_1,1.m3d
 
 type=s:HIDDENITEM
 problemclass=s::8:1000
@@ -8,6 +24,30 @@ creation=s:internal
 lifetime=s:surviveparchange
 result=s:1
 files=s:simulation_overview.json
+
+type=s:HIDDENITEM
+problemclass=s::8:1000
+visibility=s:hidden
+creation=s:internal
+lifetime=s:rebuild
+result=s:1
+files=s:$SIMonItem$_2_0.s3d
+
+type=s:HIDDENITEM
+problemclass=s::8:1000
+visibility=s:hidden
+creation=s:internal
+lifetime=s:rebuild
+result=s:1
+files=s:RefSpectrum_2.sig
+
+type=s:HIDDENITEM
+problemclass=s::8:1000
+visibility=s:hidden
+creation=s:internal
+lifetime=s:rebuild
+result=s:1
+files=s:h-field (f=2.764)_2,1.m3d
 
 type=s:DATA_FOLDER
 problemclass=s::8:1000
@@ -23,7 +63,31 @@ visibility=s:hidden
 creation=s:internal
 lifetime=s:rebuild
 result=s:1
+files=s:$SIMonItem$_1_0.s3d
+
+type=s:HIDDENITEM
+problemclass=s::8:1000
+visibility=s:hidden
+creation=s:internal
+lifetime=s:rebuild
+result=s:1
+files=s:$SIMonInfo$.sin
+
+type=s:HIDDENITEM
+problemclass=s::8:1000
+visibility=s:hidden
+creation=s:internal
+lifetime=s:rebuild
+result=s:1
 files=s:RefSpectrum_1.sig
+
+type=s:HIDDENITEM
+problemclass=s::8:1000
+visibility=s:hidden
+creation=s:internal
+lifetime=s:rebuild
+result=s:1
+files=s:h-field (f=2.764)_1,1.m3d
 
 type=s:HIDDENITEM
 problemclass=s::8:1000
@@ -152,6 +216,76 @@ creation=s:internal
 lifetime=s:persistent
 result=s:0
 treepath=s:1D Results
+
+type=s:XYSIGNAL
+subtype=s:user
+problemclass=s::8:1000
+visibility=s:visible
+creation=s:internal
+lifetime=s:persistent
+result=s:0
+treepath=s:1D Results\Materials\Dielectric\Dispersive\Eps' (Fit)
+files=s:Dielectric_eps_re.sig
+
+type=s:XYSIGNAL
+subtype=s:user
+problemclass=s::8:1000
+visibility=s:visible
+creation=s:internal
+lifetime=s:persistent
+result=s:0
+treepath=s:1D Results\Materials\Dielectric\Dispersive\Eps'' (Fit)
+files=s:Dielectric_eps_im.sig
+
+type=s:XYSIGNAL
+subtype=s:user
+problemclass=s::8:1000
+visibility=s:visible
+creation=s:internal
+lifetime=s:persistent
+result=s:0
+treepath=s:1D Results\Materials\Dielectric\Dispersive\Eps TangD (Fit)
+files=s:Dielectric_eps_tgd.sig
+
+type=s:XYSIGNAL
+subtype=s:user
+problemclass=s::8:1000
+visibility=s:visible
+creation=s:internal
+lifetime=s:persistent
+result=s:0
+treepath=s:1D Results\Materials\Copper (pure)\Surface Impedance\Z' (Fit)
+files=s:Copper (pure)_Z_re.sig
+
+type=s:XYSIGNAL
+subtype=s:user
+problemclass=s::8:1000
+visibility=s:visible
+creation=s:internal
+lifetime=s:persistent
+result=s:0
+treepath=s:1D Results\Materials\Copper (pure)\Surface Impedance\Z'' (Fit)
+files=s:Copper (pure)_Z_im.sig
+
+type=s:XYSIGNAL
+subtype=s:user
+problemclass=s::8:1000
+visibility=s:visible
+creation=s:internal
+lifetime=s:persistent
+result=s:0
+treepath=s:1D Results\Materials\Copper (pure)\Surface Impedance\Z' (Theory)
+files=s:Copper (pure)_Z_datalist_re.sig
+
+type=s:XYSIGNAL
+subtype=s:user
+problemclass=s::8:1000
+visibility=s:visible
+creation=s:internal
+lifetime=s:persistent
+result=s:0
+treepath=s:1D Results\Materials\Copper (pure)\Surface Impedance\Z'' (Theory)
+files=s:Copper (pure)_Z_datalist_im.sig
 
 type=s:XYSIGNAL
 subtype=s:user
@@ -777,6 +911,26 @@ treepath=s:Mesh\Information\PBADetails
 files=s:PBAMeshDetails.rex
 
 type=s:XYSIGNAL
+subtype=s:complex
+problemclass=s::8:1000
+visibility=s:visible
+creation=s:internal
+lifetime=s:rebuild
+result=s:1
+treepath=s:1D Results\Power\Excitation [1]\Loss per Material\Metal loss in Copper (pure)
+files=s:cMetal_loss_Copper (pure)(1).sig
+
+type=s:XYSIGNAL
+subtype=s:complex
+problemclass=s::8:1000
+visibility=s:visible
+creation=s:internal
+lifetime=s:rebuild
+result=s:1
+treepath=s:1D Results\Power\Excitation [1]\Loss in Metals
+files=s:cTotal_metal_loss(1).sig
+
+type=s:XYSIGNAL
 subtype=s:time
 problemclass=s::8:1000
 visibility=s:visible
@@ -933,8 +1087,8 @@ visibility=s:visible
 creation=s:internal
 lifetime=s:rebuild
 result=s:1
-treepath=s:1D Results\S-Parameters\S1,2
-files=s:cS1(1)2(1).sig
+treepath=s:1D Results\Power\Excitation [1]\Loss per Material\Volume loss in Dielectric
+files=s:cVolume_loss_in_Dielectric(1).sig
 
 type=s:XYSIGNAL
 subtype=s:complex
@@ -943,8 +1097,168 @@ visibility=s:visible
 creation=s:internal
 lifetime=s:rebuild
 result=s:1
-treepath=s:1D Results\S-Parameters\S2,2
-files=s:cS2(1)2(1).sig
+treepath=s:1D Results\Power\Excitation [1]\Loss in Dielectrics
+files=s:cTotal_loss_in_dielectrics(1).sig
+
+type=s:XYSIGNAL
+subtype=s:complex
+problemclass=s::8:1000
+visibility=s:visible
+creation=s:internal
+lifetime=s:rebuild
+result=s:1
+treepath=s:1D Results\Power\Excitation [2]\Loss per Material\Metal loss in Copper (pure)
+files=s:cMetal_loss_Copper (pure)(2).sig
+
+type=s:XYSIGNAL
+subtype=s:complex
+problemclass=s::8:1000
+visibility=s:visible
+creation=s:internal
+lifetime=s:rebuild
+result=s:1
+treepath=s:1D Results\Power\Excitation [2]\Loss in Metals
+files=s:cTotal_metal_loss(2).sig
+
+type=s:XYSIGNAL
+subtype=s:time
+problemclass=s::8:1000
+visibility=s:visible
+creation=s:internal
+lifetime=s:rebuild
+result=s:1
+treepath=s:1D Results\Port signals\o1,2
+files=s:o1(1)2(1).sig
+
+type=s:XYSIGNAL
+subtype=s:time
+problemclass=s::8:1000
+visibility=s:visible
+creation=s:internal
+lifetime=s:rebuild
+result=s:1
+treepath=s:1D Results\Port signals\i2
+files=s:i2(1).sig
+
+type=s:XYSIGNAL
+subtype=s:time
+problemclass=s::8:1000
+visibility=s:visible
+creation=s:internal
+lifetime=s:rebuild
+result=s:1
+treepath=s:1D Results\Port signals\o2,2
+files=s:o2(1)2(1).sig
+
+type=s:XYSIGNAL
+subtype=s:complex
+problemclass=s::8:1000
+visibility=s:visible
+creation=s:internal
+lifetime=s:rebuild
+result=s:1
+treepath=s:1D Results\Power\Excitation [2]\Power Stimulated
+files=s:StimulatedPower_2.sig
+
+type=s:XYSIGNAL
+subtype=s:complex
+problemclass=s::8:1000
+visibility=s:visible
+creation=s:internal
+lifetime=s:rebuild
+result=s:1
+treepath=s:1D Results\Power\Excitation [2]\Power Outgoing all Ports
+files=s:ReflectedPower_2.sig
+
+type=s:XYSIGNAL
+subtype=s:complex
+problemclass=s::8:1000
+visibility=s:visible
+creation=s:internal
+lifetime=s:rebuild
+result=s:1
+treepath=s:1D Results\Power\Excitation [2]\Power Accepted
+files=s:AcceptedPower_2.sig
+
+type=s:XYSIGNAL
+subtype=s:complex
+problemclass=s::8:1000
+visibility=s:visible
+creation=s:internal
+lifetime=s:rebuild
+result=s:1
+treepath=s:1D Results\Power\Excitation [2]\Power Absorbed at all Ports
+files=s:AbsorbedPower_2.sig
+
+type=s:XYSIGNAL
+subtype=s:complex
+problemclass=s::8:1000
+visibility=s:visible
+creation=s:internal
+lifetime=s:rebuild
+result=s:1
+treepath=s:1D Results\Power\Excitation [2]\Power Accepted per Port\Port 1
+files=s:AcceptedPower_1(2).sig
+
+type=s:XYSIGNAL
+subtype=s:complex
+problemclass=s::8:1000
+visibility=s:visible
+creation=s:internal
+lifetime=s:rebuild
+result=s:1
+treepath=s:1D Results\Power\Excitation [2]\Power Absorbed per Port\Port 1
+files=s:AbsorbedPower_1(2).sig
+
+type=s:XYSIGNAL
+subtype=s:complex
+problemclass=s::8:1000
+visibility=s:visible
+creation=s:internal
+lifetime=s:rebuild
+result=s:1
+treepath=s:1D Results\Power\Excitation [2]\Power Accepted per Port\Port 2
+files=s:AcceptedPower_2(2).sig
+
+type=s:XYSIGNAL
+subtype=s:complex
+problemclass=s::8:1000
+visibility=s:visible
+creation=s:internal
+lifetime=s:rebuild
+result=s:1
+treepath=s:1D Results\Power\Excitation [2]\Power Absorbed per Port\Port 2
+files=s:AbsorbedPower_2(2).sig
+
+type=s:XYSIGNAL
+subtype=s:energy
+problemclass=s::8:1000
+visibility=s:visible
+creation=s:internal
+lifetime=s:rebuild
+result=s:1
+treepath=s:1D Results\Energy\Energy [2]
+files=s:2.eng
+
+type=s:XYSIGNAL
+subtype=s:complex
+problemclass=s::8:1000
+visibility=s:visible
+creation=s:internal
+lifetime=s:rebuild
+result=s:1
+treepath=s:1D Results\Power\Excitation [2]\Loss per Material\Volume loss in Dielectric
+files=s:cVolume_loss_in_Dielectric(2).sig
+
+type=s:XYSIGNAL
+subtype=s:complex
+problemclass=s::8:1000
+visibility=s:visible
+creation=s:internal
+lifetime=s:rebuild
+result=s:1
+treepath=s:1D Results\Power\Excitation [2]\Loss in Dielectrics
+files=s:cTotal_loss_in_dielectrics(2).sig
 
 type=s:XYSIGNAL
 subtype=s:complex
@@ -1045,16 +1359,6 @@ lifetime=s:rebuild
 result=s:1
 treepath=s:1D Results\VSWR\VSWR2
 files=s:vswr2(1).sig
-
-type=s:XYSIGNAL
-subtype=s:balance
-problemclass=s::8:1000
-visibility=s:visible
-creation=s:internal
-lifetime=s:rebuild
-result=s:1
-treepath=s:1D Results\Balance\Balance [2]
-files=s:2.bil
 
 type=s:XYSIGNAL
 subtype=s:complex
@@ -1546,6 +1850,28 @@ treepath=s:1D Results\Port Information\Wave Impedance\2(1)
 files=s:zwave_2(1)_mp.sig
 
 type=s:XYSIGNAL
+subtype=s:complex
+problemclass=s::8:1000
+visibility=s:visible
+creation=s:internal
+lifetime=s:surviveparchange
+result=s:1
+parametric=s:P
+treepath=s:1D Results\Power\Excitation [1]\Loss per Material\Metal loss in Copper (pure)
+files=s:cMetal_loss_Copper (pure)(1).sig
+
+type=s:XYSIGNAL
+subtype=s:complex
+problemclass=s::8:1000
+visibility=s:visible
+creation=s:internal
+lifetime=s:surviveparchange
+result=s:1
+parametric=s:P
+treepath=s:1D Results\Power\Excitation [1]\Loss in Metals
+files=s:cTotal_metal_loss(1).sig
+
+type=s:XYSIGNAL
 subtype=s:time
 problemclass=s::8:1000
 visibility=s:visible
@@ -1718,6 +2044,83 @@ creation=s:internal
 lifetime=s:surviveparchange
 result=s:1
 parametric=s:P
+treepath=s:1D Results\Power\Excitation [1]\Loss per Material\Volume loss in Dielectric
+files=s:cVolume_loss_in_Dielectric(1).sig
+
+type=s:XYSIGNAL
+subtype=s:complex
+problemclass=s::8:1000
+visibility=s:visible
+creation=s:internal
+lifetime=s:surviveparchange
+result=s:1
+parametric=s:P
+treepath=s:1D Results\Power\Excitation [1]\Loss in Dielectrics
+files=s:cTotal_loss_in_dielectrics(1).sig
+
+type=s:XYSIGNAL
+subtype=s:complex
+problemclass=s::8:1000
+visibility=s:visible
+creation=s:internal
+lifetime=s:surviveparchange
+result=s:1
+parametric=s:P
+treepath=s:1D Results\Power\Excitation [2]\Loss per Material\Metal loss in Copper (pure)
+files=s:cMetal_loss_Copper (pure)(2).sig
+
+type=s:XYSIGNAL
+subtype=s:complex
+problemclass=s::8:1000
+visibility=s:visible
+creation=s:internal
+lifetime=s:surviveparchange
+result=s:1
+parametric=s:P
+treepath=s:1D Results\Power\Excitation [2]\Loss in Metals
+files=s:cTotal_metal_loss(2).sig
+
+type=s:XYSIGNAL
+subtype=s:time
+problemclass=s::8:1000
+visibility=s:visible
+creation=s:internal
+lifetime=s:surviveparchange
+result=s:1
+parametric=s:P
+treepath=s:1D Results\Port signals\o1,2
+files=s:o1(1)2(1).sig
+
+type=s:XYSIGNAL
+subtype=s:time
+problemclass=s::8:1000
+visibility=s:visible
+creation=s:internal
+lifetime=s:surviveparchange
+result=s:1
+parametric=s:P
+treepath=s:1D Results\Port signals\i2
+files=s:i2(1).sig
+
+type=s:XYSIGNAL
+subtype=s:time
+problemclass=s::8:1000
+visibility=s:visible
+creation=s:internal
+lifetime=s:surviveparchange
+result=s:1
+parametric=s:P
+treepath=s:1D Results\Port signals\o2,2
+files=s:o2(1)2(1).sig
+
+type=s:XYSIGNAL
+subtype=s:complex
+problemclass=s::8:1000
+visibility=s:visible
+creation=s:internal
+lifetime=s:surviveparchange
+result=s:1
+parametric=s:P
 treepath=s:1D Results\S-Parameters\S1,2
 files=s:cS1(1)2(1).sig
 
@@ -1731,6 +2134,138 @@ result=s:1
 parametric=s:P
 treepath=s:1D Results\S-Parameters\S2,2
 files=s:cS2(1)2(1).sig
+
+type=s:XYSIGNAL
+subtype=s:balance
+problemclass=s::8:1000
+visibility=s:visible
+creation=s:internal
+lifetime=s:surviveparchange
+result=s:1
+parametric=s:P
+treepath=s:1D Results\Balance\Balance [2]
+files=s:2.bil
+
+type=s:XYSIGNAL
+subtype=s:complex
+problemclass=s::8:1000
+visibility=s:visible
+creation=s:internal
+lifetime=s:surviveparchange
+result=s:1
+parametric=s:P
+treepath=s:1D Results\Power\Excitation [2]\Power Stimulated
+files=s:StimulatedPower_2.sig
+
+type=s:XYSIGNAL
+subtype=s:complex
+problemclass=s::8:1000
+visibility=s:visible
+creation=s:internal
+lifetime=s:surviveparchange
+result=s:1
+parametric=s:P
+treepath=s:1D Results\Power\Excitation [2]\Power Outgoing all Ports
+files=s:ReflectedPower_2.sig
+
+type=s:XYSIGNAL
+subtype=s:complex
+problemclass=s::8:1000
+visibility=s:visible
+creation=s:internal
+lifetime=s:surviveparchange
+result=s:1
+parametric=s:P
+treepath=s:1D Results\Power\Excitation [2]\Power Accepted
+files=s:AcceptedPower_2.sig
+
+type=s:XYSIGNAL
+subtype=s:complex
+problemclass=s::8:1000
+visibility=s:visible
+creation=s:internal
+lifetime=s:surviveparchange
+result=s:1
+parametric=s:P
+treepath=s:1D Results\Power\Excitation [2]\Power Absorbed at all Ports
+files=s:AbsorbedPower_2.sig
+
+type=s:XYSIGNAL
+subtype=s:complex
+problemclass=s::8:1000
+visibility=s:visible
+creation=s:internal
+lifetime=s:surviveparchange
+result=s:1
+parametric=s:P
+treepath=s:1D Results\Power\Excitation [2]\Power Accepted per Port\Port 1
+files=s:AcceptedPower_1(2).sig
+
+type=s:XYSIGNAL
+subtype=s:complex
+problemclass=s::8:1000
+visibility=s:visible
+creation=s:internal
+lifetime=s:surviveparchange
+result=s:1
+parametric=s:P
+treepath=s:1D Results\Power\Excitation [2]\Power Absorbed per Port\Port 1
+files=s:AbsorbedPower_1(2).sig
+
+type=s:XYSIGNAL
+subtype=s:complex
+problemclass=s::8:1000
+visibility=s:visible
+creation=s:internal
+lifetime=s:surviveparchange
+result=s:1
+parametric=s:P
+treepath=s:1D Results\Power\Excitation [2]\Power Accepted per Port\Port 2
+files=s:AcceptedPower_2(2).sig
+
+type=s:XYSIGNAL
+subtype=s:complex
+problemclass=s::8:1000
+visibility=s:visible
+creation=s:internal
+lifetime=s:surviveparchange
+result=s:1
+parametric=s:P
+treepath=s:1D Results\Power\Excitation [2]\Power Absorbed per Port\Port 2
+files=s:AbsorbedPower_2(2).sig
+
+type=s:XYSIGNAL
+subtype=s:energy
+problemclass=s::8:1000
+visibility=s:visible
+creation=s:internal
+lifetime=s:surviveparchange
+result=s:1
+parametric=s:P
+treepath=s:1D Results\Energy\Energy [2]
+files=s:2.eng
+
+type=s:XYSIGNAL
+subtype=s:complex
+problemclass=s::8:1000
+visibility=s:visible
+creation=s:internal
+lifetime=s:surviveparchange
+result=s:1
+parametric=s:P
+treepath=s:1D Results\Power\Excitation [2]\Loss per Material\Volume loss in Dielectric
+files=s:cVolume_loss_in_Dielectric(2).sig
+
+type=s:XYSIGNAL
+subtype=s:complex
+problemclass=s::8:1000
+visibility=s:visible
+creation=s:internal
+lifetime=s:surviveparchange
+result=s:1
+parametric=s:P
+treepath=s:1D Results\Power\Excitation [2]\Loss in Dielectrics
+files=s:cTotal_loss_in_dielectrics(2).sig
 
 type=s:XYSIGNAL
 subtype=s:complex
@@ -1843,17 +2378,6 @@ treepath=s:1D Results\VSWR\VSWR2
 files=s:vswr2(1).sig
 
 type=s:XYSIGNAL
-subtype=s:balance
-problemclass=s::8:1000
-visibility=s:visible
-creation=s:internal
-lifetime=s:surviveparchange
-result=s:1
-parametric=s:P
-treepath=s:1D Results\Balance\Balance [2]
-files=s:2.bil
-
-type=s:XYSIGNAL
 subtype=s:complex
 problemclass=s::8:1000
 visibility=s:visible
@@ -1906,4 +2430,97 @@ result=s:1
 parametric=s:P
 treepath=s:1D Results\AutomaticRunInformation
 files=s:AutomaticRunInformation
+
+type=s:HFIELD3D
+problemclass=s::8:1000
+visibility=s:visible
+creation=s:internal
+lifetime=s:rebuild
+result=s:1
+treepath=s:2D/3D Results\H-Field\h-field (f=2.62) [1]
+files=s:h-field (f=2.62)_1,1.m3d
+files=s:h-field (f=2.62)_1,1_m3d.rex
+
+type=s:SURFACECURRENT
+problemclass=s::8:1000
+visibility=s:visible
+creation=s:internal
+lifetime=s:rebuild
+result=s:1
+treepath=s:2D/3D Results\Surface Current\surface current (f=2.62) [1]
+files=s:h-field (f=2.62)_1,1.m3d
+files=s:h-field (f=2.62)_1,1_m3d_sct.rex
+
+type=s:HFIELD3D
+problemclass=s::8:1000
+visibility=s:visible
+creation=s:internal
+lifetime=s:rebuild
+result=s:1
+treepath=s:2D/3D Results\H-Field\h-field (f=2.62) [2]
+files=s:h-field (f=2.62)_2,1.m3d
+files=s:h-field (f=2.62)_2,1_m3d.rex
+
+type=s:SURFACECURRENT
+problemclass=s::8:1000
+visibility=s:visible
+creation=s:internal
+lifetime=s:rebuild
+result=s:1
+treepath=s:2D/3D Results\Surface Current\surface current (f=2.62) [2]
+files=s:h-field (f=2.62)_2,1.m3d
+files=s:h-field (f=2.62)_2,1_m3d_sct.rex
+
+type=s:XYSIGNAL
+subtype=s:complex
+problemclass=s::8:1000
+visibility=s:visible
+creation=s:internal
+lifetime=s:rebuild
+result=s:1
+treepath=s:1D Results\S-Parameters\S1,2
+files=s:cS1(1)2(1).sig
+
+type=s:XYSIGNAL
+subtype=s:complex
+problemclass=s::8:1000
+visibility=s:visible
+creation=s:internal
+lifetime=s:rebuild
+result=s:1
+treepath=s:1D Results\S-Parameters\S2,2
+files=s:cS2(1)2(1).sig
+
+type=s:XYSIGNAL
+subtype=s:balance
+problemclass=s::8:1000
+visibility=s:visible
+creation=s:internal
+lifetime=s:rebuild
+result=s:1
+treepath=s:1D Results\Balance\Balance [2]
+files=s:2.bil
+
+type=s:HFIELD3D
+problemclass=s::8:1000
+visibility=s:visible
+creation=s:external
+lifetime=s:rebuild
+result=s:1
+user_delete=s:1
+treepath=s:2D/3D Results\Mix 3D Results\1h-field (f=2.62) (1)Mu01e4
+files=s:1h-field (f=2.62) (1)Mu01e4.m3d
+files=s:1h-field (f=2.62) (1)Mu01e4_m3d.rex
+ylabel=s:1h-field (f=2.62) (1)Mu01e4
+
+type=s:TABLE
+subtype=s:user
+problemclass=s::8:1000
+visibility=s:visible
+creation=s:internal
+lifetime=s:surviveparchange
+result=s:1
+treepath=s:Tables\0D Results\1h-field (f=2.62) (1)Mu01e4
+files=s:1h-field (f=2.62) (1)Mu01e4.rd0
+files=s:1h-field (f=2.62) (1)Mu01e4.rd0
 
