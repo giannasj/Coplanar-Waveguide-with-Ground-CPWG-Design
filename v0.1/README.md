@@ -5,4 +5,4 @@
 - Metal Width: 0.2 mm
 - Metal Spacing: 0.1 mm
 - Metal Thickness: 0.035 mm (35 um)
-- Trace Length: 15 mm
+- Trace Length: 14.5 mm
