@@ -1,21 +1,5 @@
 MWS Result File Version 20150206
-size=i:247
-
-type=s:HIDDENITEM
-problemclass=s::8:1000
-visibility=s:hidden
-creation=s:internal
-lifetime=s:rebuild
-result=s:1
-files=s:h-field (f=2.62)_2,1.m3d
-
-type=s:HIDDENITEM
-problemclass=s::8:1000
-visibility=s:hidden
-creation=s:internal
-lifetime=s:rebuild
-result=s:1
-files=s:h-field (f=2.62)_1,1.m3d
+size=i:245
 
 type=s:HIDDENITEM
 problemclass=s::8:1000
@@ -47,7 +31,7 @@ visibility=s:hidden
 creation=s:internal
 lifetime=s:rebuild
 result=s:1
-files=s:h-field (f=2.764)_2,1.m3d
+files=s:h-field (f=2.62)_2,1.m3d
 
 type=s:DATA_FOLDER
 problemclass=s::8:1000
@@ -87,7 +71,7 @@ visibility=s:hidden
 creation=s:internal
 lifetime=s:rebuild
 result=s:1
-files=s:h-field (f=2.764)_1,1.m3d
+files=s:h-field (f=2.62)_1,1.m3d
 
 type=s:HIDDENITEM
 problemclass=s::8:1000
@@ -216,76 +200,6 @@ creation=s:internal
 lifetime=s:persistent
 result=s:0
 treepath=s:1D Results
-
-type=s:XYSIGNAL
-subtype=s:user
-problemclass=s::8:1000
-visibility=s:visible
-creation=s:internal
-lifetime=s:persistent
-result=s:0
-treepath=s:1D Results\Materials\Dielectric\Dispersive\Eps' (Fit)
-files=s:Dielectric_eps_re.sig
-
-type=s:XYSIGNAL
-subtype=s:user
-problemclass=s::8:1000
-visibility=s:visible
-creation=s:internal
-lifetime=s:persistent
-result=s:0
-treepath=s:1D Results\Materials\Dielectric\Dispersive\Eps'' (Fit)
-files=s:Dielectric_eps_im.sig
-
-type=s:XYSIGNAL
-subtype=s:user
-problemclass=s::8:1000
-visibility=s:visible
-creation=s:internal
-lifetime=s:persistent
-result=s:0
-treepath=s:1D Results\Materials\Dielectric\Dispersive\Eps TangD (Fit)
-files=s:Dielectric_eps_tgd.sig
-
-type=s:XYSIGNAL
-subtype=s:user
-problemclass=s::8:1000
-visibility=s:visible
-creation=s:internal
-lifetime=s:persistent
-result=s:0
-treepath=s:1D Results\Materials\Copper (pure)\Surface Impedance\Z' (Fit)
-files=s:Copper (pure)_Z_re.sig
-
-type=s:XYSIGNAL
-subtype=s:user
-problemclass=s::8:1000
-visibility=s:visible
-creation=s:internal
-lifetime=s:persistent
-result=s:0
-treepath=s:1D Results\Materials\Copper (pure)\Surface Impedance\Z'' (Fit)
-files=s:Copper (pure)_Z_im.sig
-
-type=s:XYSIGNAL
-subtype=s:user
-problemclass=s::8:1000
-visibility=s:visible
-creation=s:internal
-lifetime=s:persistent
-result=s:0
-treepath=s:1D Results\Materials\Copper (pure)\Surface Impedance\Z' (Theory)
-files=s:Copper (pure)_Z_datalist_re.sig
-
-type=s:XYSIGNAL
-subtype=s:user
-problemclass=s::8:1000
-visibility=s:visible
-creation=s:internal
-lifetime=s:persistent
-result=s:0
-treepath=s:1D Results\Materials\Copper (pure)\Surface Impedance\Z'' (Theory)
-files=s:Copper (pure)_Z_datalist_im.sig
 
 type=s:XYSIGNAL
 subtype=s:user
@@ -930,6 +844,26 @@ result=s:1
 treepath=s:1D Results\Power\Excitation [1]\Loss in Metals
 files=s:cTotal_metal_loss(1).sig
 
+type=s:HFIELD3D
+problemclass=s::8:1000
+visibility=s:visible
+creation=s:internal
+lifetime=s:rebuild
+result=s:1
+treepath=s:2D/3D Results\H-Field\h-field (f=2.62) [1]
+files=s:h-field (f=2.62)_1,1.m3d
+files=s:h-field (f=2.62)_1,1_m3d.rex
+
+type=s:SURFACECURRENT
+problemclass=s::8:1000
+visibility=s:visible
+creation=s:internal
+lifetime=s:rebuild
+result=s:1
+treepath=s:2D/3D Results\Surface Current\surface current (f=2.62) [1]
+files=s:h-field (f=2.62)_1,1.m3d
+files=s:h-field (f=2.62)_1,1_m3d_sct.rex
+
 type=s:XYSIGNAL
 subtype=s:time
 problemclass=s::8:1000
@@ -1120,6 +1054,26 @@ result=s:1
 treepath=s:1D Results\Power\Excitation [2]\Loss in Metals
 files=s:cTotal_metal_loss(2).sig
 
+type=s:HFIELD3D
+problemclass=s::8:1000
+visibility=s:visible
+creation=s:internal
+lifetime=s:rebuild
+result=s:1
+treepath=s:2D/3D Results\H-Field\h-field (f=2.62) [2]
+files=s:h-field (f=2.62)_2,1.m3d
+files=s:h-field (f=2.62)_2,1_m3d.rex
+
+type=s:SURFACECURRENT
+problemclass=s::8:1000
+visibility=s:visible
+creation=s:internal
+lifetime=s:rebuild
+result=s:1
+treepath=s:2D/3D Results\Surface Current\surface current (f=2.62) [2]
+files=s:h-field (f=2.62)_2,1.m3d
+files=s:h-field (f=2.62)_2,1_m3d_sct.rex
+
 type=s:XYSIGNAL
 subtype=s:time
 problemclass=s::8:1000
@@ -1149,6 +1103,36 @@ lifetime=s:rebuild
 result=s:1
 treepath=s:1D Results\Port signals\o2,2
 files=s:o2(1)2(1).sig
+
+type=s:XYSIGNAL
+subtype=s:complex
+problemclass=s::8:1000
+visibility=s:visible
+creation=s:internal
+lifetime=s:rebuild
+result=s:1
+treepath=s:1D Results\S-Parameters\S1,2
+files=s:cS1(1)2(1).sig
+
+type=s:XYSIGNAL
+subtype=s:complex
+problemclass=s::8:1000
+visibility=s:visible
+creation=s:internal
+lifetime=s:rebuild
+result=s:1
+treepath=s:1D Results\S-Parameters\S2,2
+files=s:cS2(1)2(1).sig
+
+type=s:XYSIGNAL
+subtype=s:balance
+problemclass=s::8:1000
+visibility=s:visible
+creation=s:internal
+lifetime=s:rebuild
+result=s:1
+treepath=s:1D Results\Balance\Balance [2]
+files=s:2.bil
 
 type=s:XYSIGNAL
 subtype=s:complex
@@ -1399,6 +1383,29 @@ lifetime=s:rebuild
 result=s:1
 treepath=s:1D Results\Port Information\Port Modes_pmi\2(1)
 files=s:Gamma_2(1)_pmi.sig
+
+type=s:HFIELD3D
+problemclass=s::8:1000
+visibility=s:visible
+creation=s:external
+lifetime=s:rebuild
+result=s:1
+user_delete=s:1
+treepath=s:2D/3D Results\Mix 3D Results\1h-field (f=2.62) (1)Mu01e4
+files=s:1h-field (f=2.62) (1)Mu01e4.m3d
+files=s:1h-field (f=2.62) (1)Mu01e4_m3d.rex
+ylabel=s:1h-field (f=2.62) (1)Mu01e4
+
+type=s:TABLE
+subtype=s:user
+problemclass=s::8:1000
+visibility=s:visible
+creation=s:internal
+lifetime=s:surviveparchange
+result=s:1
+treepath=s:Tables\0D Results\1h-field (f=2.62) (1)Mu01e4
+files=s:1h-field (f=2.62) (1)Mu01e4.rd0
+files=s:1h-field (f=2.62) (1)Mu01e4.rd0
 
 type=s:RESULT_0D
 problemclass=s::8:1000
@@ -2431,96 +2438,73 @@ parametric=s:P
 treepath=s:1D Results\AutomaticRunInformation
 files=s:AutomaticRunInformation
 
-type=s:HFIELD3D
-problemclass=s::8:1000
-visibility=s:visible
-creation=s:internal
-lifetime=s:rebuild
-result=s:1
-treepath=s:2D/3D Results\H-Field\h-field (f=2.62) [1]
-files=s:h-field (f=2.62)_1,1.m3d
-files=s:h-field (f=2.62)_1,1_m3d.rex
-
-type=s:SURFACECURRENT
-problemclass=s::8:1000
-visibility=s:visible
-creation=s:internal
-lifetime=s:rebuild
-result=s:1
-treepath=s:2D/3D Results\Surface Current\surface current (f=2.62) [1]
-files=s:h-field (f=2.62)_1,1.m3d
-files=s:h-field (f=2.62)_1,1_m3d_sct.rex
-
-type=s:HFIELD3D
-problemclass=s::8:1000
-visibility=s:visible
-creation=s:internal
-lifetime=s:rebuild
-result=s:1
-treepath=s:2D/3D Results\H-Field\h-field (f=2.62) [2]
-files=s:h-field (f=2.62)_2,1.m3d
-files=s:h-field (f=2.62)_2,1_m3d.rex
-
-type=s:SURFACECURRENT
-problemclass=s::8:1000
-visibility=s:visible
-creation=s:internal
-lifetime=s:rebuild
-result=s:1
-treepath=s:2D/3D Results\Surface Current\surface current (f=2.62) [2]
-files=s:h-field (f=2.62)_2,1.m3d
-files=s:h-field (f=2.62)_2,1_m3d_sct.rex
-
 type=s:XYSIGNAL
-subtype=s:complex
-problemclass=s::8:1000
-visibility=s:visible
-creation=s:internal
-lifetime=s:rebuild
-result=s:1
-treepath=s:1D Results\S-Parameters\S1,2
-files=s:cS1(1)2(1).sig
-
-type=s:XYSIGNAL
-subtype=s:complex
-problemclass=s::8:1000
-visibility=s:visible
-creation=s:internal
-lifetime=s:rebuild
-result=s:1
-treepath=s:1D Results\S-Parameters\S2,2
-files=s:cS2(1)2(1).sig
-
-type=s:XYSIGNAL
-subtype=s:balance
-problemclass=s::8:1000
-visibility=s:visible
-creation=s:internal
-lifetime=s:rebuild
-result=s:1
-treepath=s:1D Results\Balance\Balance [2]
-files=s:2.bil
-
-type=s:HFIELD3D
-problemclass=s::8:1000
-visibility=s:visible
-creation=s:external
-lifetime=s:rebuild
-result=s:1
-user_delete=s:1
-treepath=s:2D/3D Results\Mix 3D Results\1h-field (f=2.62) (1)Mu01e4
-files=s:1h-field (f=2.62) (1)Mu01e4.m3d
-files=s:1h-field (f=2.62) (1)Mu01e4_m3d.rex
-ylabel=s:1h-field (f=2.62) (1)Mu01e4
-
-type=s:TABLE
 subtype=s:user
 problemclass=s::8:1000
 visibility=s:visible
 creation=s:internal
-lifetime=s:surviveparchange
-result=s:1
-treepath=s:Tables\0D Results\1h-field (f=2.62) (1)Mu01e4
-files=s:1h-field (f=2.62) (1)Mu01e4.rd0
-files=s:1h-field (f=2.62) (1)Mu01e4.rd0
+lifetime=s:persistent
+result=s:0
+treepath=s:1D Results\Materials\Dielectric\Dispersive\Eps' (Fit)
+files=s:Dielectric_eps_re.sig
+
+type=s:XYSIGNAL
+subtype=s:user
+problemclass=s::8:1000
+visibility=s:visible
+creation=s:internal
+lifetime=s:persistent
+result=s:0
+treepath=s:1D Results\Materials\Dielectric\Dispersive\Eps'' (Fit)
+files=s:Dielectric_eps_im.sig
+
+type=s:XYSIGNAL
+subtype=s:user
+problemclass=s::8:1000
+visibility=s:visible
+creation=s:internal
+lifetime=s:persistent
+result=s:0
+treepath=s:1D Results\Materials\Dielectric\Dispersive\Eps TangD (Fit)
+files=s:Dielectric_eps_tgd.sig
+
+type=s:XYSIGNAL
+subtype=s:user
+problemclass=s::8:1000
+visibility=s:visible
+creation=s:internal
+lifetime=s:persistent
+result=s:0
+treepath=s:1D Results\Materials\Copper (pure)\Surface Impedance\Z' (Fit)
+files=s:Copper (pure)_Z_re.sig
+
+type=s:XYSIGNAL
+subtype=s:user
+problemclass=s::8:1000
+visibility=s:visible
+creation=s:internal
+lifetime=s:persistent
+result=s:0
+treepath=s:1D Results\Materials\Copper (pure)\Surface Impedance\Z'' (Fit)
+files=s:Copper (pure)_Z_im.sig
+
+type=s:XYSIGNAL
+subtype=s:user
+problemclass=s::8:1000
+visibility=s:visible
+creation=s:internal
+lifetime=s:persistent
+result=s:0
+treepath=s:1D Results\Materials\Copper (pure)\Surface Impedance\Z' (Theory)
+files=s:Copper (pure)_Z_datalist_re.sig
+
+type=s:XYSIGNAL
+subtype=s:user
+problemclass=s::8:1000
+visibility=s:visible
+creation=s:internal
+lifetime=s:persistent
+result=s:0
+treepath=s:1D Results\Materials\Copper (pure)\Surface Impedance\Z'' (Theory)
+files=s:Copper (pure)_Z_datalist_im.sig
 

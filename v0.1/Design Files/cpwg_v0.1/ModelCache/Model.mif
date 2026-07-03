@@ -4,8 +4,8 @@
 [PCB_IMPORT: False]
 [PCB_IMPORT_NEW: False]
 [DISABLE_FAST_LOAD: False]
-[BBOX:-25.582704833333334 25.582704833333334 -26.287704833333333 25.200204833333334 -32.232704833333329 32.232704833333329]
-[BBOX_STRUCTURE:-0.59999999999999998 0.59999999999999998 -1.3050000000000002 0.21750000000000003 -7.25 7.25]
+[BBOX:-25.582704833333334 25.582704833333334 -26.287704833333333 25.217704833333332 -32.232704833333329 32.232704833333329]
+[BBOX_STRUCTURE:-0.59999999999999998 0.59999999999999998 -1.3050000000000002 0.23500000000000001 -7.25 7.25]
 [UNITS]
      .SetUnit "Length", "mm"
      .SetUnit "Temperature", "degC"
@@ -333,7 +333,7 @@ Solver.FrequencyRange "1", "5"
      .Mu "1"
      .Sigma "0.0"
      .TanD "0.0023"
-     .TanDFreq "0.0"
+     .TanDFreq "2.87"
      .TanDGiven "True"
      .TanDModel "ConstTanD"
      .SetConstTanDStrategyEps "AutomaticOrder"
@@ -571,7 +571,7 @@ Solver.FrequencyRange "1", "5"
      .PortOnBound "False"
      .ClipPickedPortToBound "False"
      .Xrange "0", "1.2000000000000002"
-     .Yrange "0", "1.5225000000000002"
+     .Yrange "0", "1.5400000000000003"
      .Zrange "0", "0"
      .XrangeAdd "0.0", "0.0"
      .YrangeAdd "0.0", "0.0"
@@ -579,10 +579,10 @@ Solver.FrequencyRange "1", "5"
      .SingleEnded "False"
      .AddPotentialNumerically "1", "positive", "0.600000", "1.322500"
      .AddPotentialNumerically "1", "negative", "0.600000", "0.017500"
-     .AddPotentialNumerically "1", "negative", "1.000000", "1.322500"
      .AddPotentialNumerically "1", "negative", "0.200000", "1.322500"
+     .AddPotentialNumerically "1", "negative", "1.000000", "1.322500"
      .WaveguideMonitor "False"
-     .ReferenceWCS "0.6", "0.76125", "0", "0", "0", "1", "1", "0", "0"
+     .ReferenceWCS "0.6", "0.77", "0", "0", "0", "1", "1", "0", "0"
 (TRANSFORM) "1", "0", "0", "0", "1", "0", "0", "0", "1"| "-0.6", "-1.305", "7.25"(ENDTRANSFORM)
 [ENDWAVEGUIDE]
 [WAVEGUIDE: 2]
@@ -599,17 +599,17 @@ Solver.FrequencyRange "1", "5"
      .PortOnBound "False"
      .ClipPickedPortToBound "False"
      .Xrange "0", "1.2000000000000002"
-     .Yrange "0", "1.5225000000000002"
+     .Yrange "0", "1.5400000000000003"
      .Zrange "0", "0"
      .XrangeAdd "0.0", "0.0"
      .YrangeAdd "0.0", "0.0"
      .ZrangeAdd "0.0", "0.0"
      .SingleEnded "False"
      .AddPotentialNumerically "1", "positive", "0.600000", "1.322500"
-     .AddPotentialNumerically "1", "negative", "0.200000", "1.322500"
-     .AddPotentialNumerically "1", "negative", "1.000000", "1.322500"
      .AddPotentialNumerically "1", "negative", "0.600000", "0.017500"
+     .AddPotentialNumerically "1", "negative", "1.000000", "1.322500"
+     .AddPotentialNumerically "1", "negative", "0.200000", "1.322500"
      .WaveguideMonitor "False"
-     .ReferenceWCS "0.6", "0.76125", "0", "0", "0", "-1", "1", "0", "0"
+     .ReferenceWCS "0.6", "0.77", "0", "0", "0", "-1", "1", "0", "0"
 (TRANSFORM) "1", "0", "0", "0", "1", "0", "0", "0", "1"| "-0.6", "-1.305", "-7.25"(ENDTRANSFORM)
 [ENDWAVEGUIDE]

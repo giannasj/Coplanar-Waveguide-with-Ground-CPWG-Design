@@ -6,14 +6,14 @@
       <Sphere position="0 -1.28750002 7.25" dimension="4 4 4" material="$PortMaterial$" text="1(1-)" short="1"/>
       <Sphere position="0 0.0175000001 7.25" dimension="4 4 4" material="$PortMaterial$" text="1(1+)" short="1"/>
       <Sphere position="0.400000006 0.0175000001 7.25" dimension="4 4 4" material="$PortMaterial$" text="1(1-)" short="1"/>
-      <LineSet points="-0.600000024 -1.30499995 7.25 0.600000024 -1.30499995 7.25 0.600000024 0.217500001 7.25 -0.600000024 0.217500001 7.25 -0.600000024 -1.30499995 7.25" stripped="1" material="$PortMaterial$"/>
+      <LineSet points="-0.600000024 -1.30499995 7.25 0.600000024 -1.30499995 7.25 0.600000024 0.234999999 7.25 -0.600000024 0.234999999 7.25 -0.600000024 -1.30499995 7.25" stripped="1" material="$PortMaterial$"/>
     </Object>
     <Object name="Ports\port2" id="7">
       <Sphere position="-0.400000006 0.0175000001 -7.25" dimension="4 4 4" material="$PortMaterial$" text="2(1-)" short="2"/>
       <Sphere position="0 -1.28750002 -7.25" dimension="4 4 4" material="$PortMaterial$" text="2(1-)" short="2"/>
       <Sphere position="0 0.0175000001 -7.25" dimension="4 4 4" material="$PortMaterial$" text="2(1+)" short="2"/>
       <Sphere position="0.400000006 0.0175000001 -7.25" dimension="4 4 4" material="$PortMaterial$" text="2(1-)" short="2"/>
-      <LineSet points="-0.600000024 -1.30499995 -7.25 0.600000024 -1.30499995 -7.25 0.600000024 0.217500001 -7.25 -0.600000024 0.217500001 -7.25 -0.600000024 -1.30499995 -7.25" stripped="1" material="$PortMaterial$"/>
+      <LineSet points="-0.600000024 -1.30499995 -7.25 0.600000024 -1.30499995 -7.25 0.600000024 0.234999999 -7.25 -0.600000024 0.234999999 -7.25 -0.600000024 -1.30499995 -7.25" stripped="1" material="$PortMaterial$"/>
     </Object>
   </Objects>
   <Materials>

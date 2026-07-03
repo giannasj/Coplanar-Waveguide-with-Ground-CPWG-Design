@@ -4,9 +4,9 @@
    "Last Problem Type": "High Frequency",
    "Last Solver Type": "HF Time Domain",
    "Last Solver Type Abb": "t",
-   "Mesh Cells": "91,080",
+   "Mesh Cells": "95,220",
    "Mesh Type": "Hexahedral",
-   "Modeler Unique ID": "5:cpwg_v0.1.cst?66a2caceb6950db6ca951e7e4aacacf5?14683:numberofparameters=9:port=1>mode=1>zre=0>zim=0?port=2>mode=1>zre=0>zim=0:::epsilon_r?gapwidth?groundthickness?length?substrateheight?substratewidth?tracethickness?tracewidth?w",
+   "Modeler Unique ID": "5:cpwg_v0.1.cst?a5e6e0ddcaf6395bfcc87283f73381be?29947:numberofparameters=9:port=1>mode=1>zre=0>zim=0?port=2>mode=1>zre=0>zim=0:::epsilon_r?gapwidth?groundthickness?length?substrateheight?substratewidth?tracethickness?tracewidth?w",
    "ProjectVersion": "'# MWS Version: Version 2025.4 - Apr 11 2025 - ACIS 34.0.1 - Learning Edition",
    "Results": "Time Domain: S-Parameter",
    "Version": "3"

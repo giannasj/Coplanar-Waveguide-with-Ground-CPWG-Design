@@ -1,0 +1,19 @@
+Post-processing Logfile 
+
+----------------------------------------------------------------------------------------
+Units settings: 
+
+  Dimensions: mm
+  Frequency:  GHz
+  Time:       ns
+
+----------------------------------------------------------------------------------------
+
+Template based post-processing started at: 2026-05-20 16:44:55
+
+  Evaluating '1h-field (f=2.62) (1)Mu01e4': 2.086 s
+
+  Total time: 2 s  ( = 0 h, 0 m, 2 s )
+
+Template based post-processing finished at: 2026-05-20 16:44:57
+----------------------------------------------------------------------------------------
